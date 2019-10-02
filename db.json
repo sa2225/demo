@@ -1,14 +1,25 @@
 {
+  "pizzas": [
+    { "id": 1, "pizza": "Small 6 Slices - no toppings" },
+    { "id": 2, "pizza": "Small 6 Slices - 1 topping" },
+    { "id": 3, "pizza": "Medium 8 Slices - 2 toppings" },
+    { "id": 4, "pizza": "Large 10 Slices - no toppings" },
+    { "id": 5, "pizza": "Large 10 Slices - 2 toppings" }
+  ],
   "toppings": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "name": "Diced Mango" },
+    { "id": 2, "name": "Olives" },
+    { "id": 3, "name": "Mushrooms" },
+    { "id": 4, "name": "Caramelized onions" },
+    { "id": 5, "name": "Italian Ham" },
+    { "id": 6, "name": "Classic Pepperoni" },
+    { "id": 7, "name": "Salami" },
+    { "id": 8, "name": "Provolone cheese" },
+    { "id": 9, "name": "Extra cheese" },
+    { "id": 10, "name": "Mozzarella cheese" },
+    { "id": 11, "name": "Parmesan cheese" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "orders": {
+    "name": ""
   }
 }
