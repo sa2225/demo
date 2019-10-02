@@ -19,7 +19,15 @@
     { "id": 10, "name": "Mozzarella cheese" },
     { "id": 11, "name": "Parmesan cheese" }
   ],
-  "orders": {
-    "name": ""
-  }
+  "orders": [
+    { "id": "1", "items": [{ "item":1, "pizza": "Medium 8 Slices - 2 toppings", "toppings":["Mushrooms","Extra cheese"]},
+                           { "item":2, "pizza": "Large 10 Slices - 2 toppings", "toppings":["Italian Ham","Salami"]}
+                          ]},
+    
+    { "id": "2", "items": [{ "item":1, "pizza": "Small 6 Slices - no toppings", "toppings":[]}
+                          ]},
+    
+    { "id": "2", "items": [{ "item":1, "pizza": "Small 6 Slices - 1 topping", "toppings":["Mushrooms"]}
+                          ]}
+   ]
 }
